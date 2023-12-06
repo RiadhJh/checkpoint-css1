@@ -1,0 +1,232 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.5;
+    
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.322);
+
+}
+header > a img{
+    width: 200px;
+    height: 30px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: grey;
+}
+/*section1*/
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-top: 80px; 
+
+}
+.section1>img{
+    width: 50px;
+}
+.section1>h1{
+    color: #00b39b;
+    font-size: 40px;
+    font-weight: 100;
+}
+.seperatedp{
+    color: #747474;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 250px;
+}
+.p1{
+    padding-right: 15px;
+}
+/*section2*/
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    padding: 0 25px;
+    gap: 2rem;
+    font-size: 1.5em;
+    max-width: 1000px;
+    margin: 3rem auto;
+
+}
+.section2>div{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    padding: 2em 2em 0;
+}
+.forp{
+    background-color: #00b39b;
+    
+}
+.forp select{
+    background-color: #00b39b;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    border: none;
+    color: inherit;
+}
+.ford{
+    background-color: blue;
+
+}
+.ford select{
+    background-color: blue;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    border: none;
+    color: inherit;
+
+}
+.forc{
+    background-color: darkblue;
+
+}
+.forc select{
+    background-color: darkblue;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    border: none;
+    color: inherit;
+}
+/*section3*/
+.section3{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+
+}
+.section3 div{
+
+    display: flex;
+    width: 60%;
+}
+.title{
+    color: #00b39b;
+    font-size: 1.5em;
+
+}
+.logos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.logos img{
+    width: 60px;
+    object-fit: contain;
+}
+/*section 4 */
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: blanchedalmond;
+}
+.s4header{
+    padding-top: 50px;
+}
+.s4header h2{
+    color: #00b39b;
+    padding-left: 70px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.s4header p{
+    color: #747474;
+    padding: 50px;
+}
+
+.s4parts{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.s4parts div{
+    height: 500px;
+    width: 250px;
+}
+.s4parts p{
+    font-size: 0.8em;
+    color: #747474;
+}
+.s4parts h3{
+    color: #00b39b;
+}
+
+.first2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+}
+.leader, .patients, .appointments, .doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    width: 220px;
+
+}
+.second2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*section 5 */
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.section5 h3{
+    color: #00b39b;
+    text-align: center;
+    font-size: 1.5em;
+}
+.section5 p{
+    margin: 20px 0;
+    text-align: center;
+    color: #747474;
+
+
+}
+
